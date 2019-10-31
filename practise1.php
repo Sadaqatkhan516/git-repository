@@ -1,7 +1,20 @@
 <html>
 <body>
+<head>
+    <title>Sample HTML5 Layout</title>
+    <link href="stylesheet.css" rel="stylesheet" />
+</head>
+<header>
+        <h1>This is page heading</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="http://localhost:3000/practise2.php">Back to Home</a></li>
+            
+        </ul>
 
 <!- simple html form to get input from user -->
+<article>
 <form method="post">
 Please enter positive number for question 1:<input type="number" name="number"><br>
 Click on one of the following buttons to perform the operation labeled on the buttons. <br>
@@ -11,6 +24,7 @@ The given number, next and previous positive integer will be used in the followi
 <input type="submit" name="submit2" value="Click for highest number using +/-* operations"><br>
 <input type="submit" name="submit3" value="Click for highest number using +/-* operations simplified version"><br>
 </form>
+</article>
 <br>
 <br>
 
