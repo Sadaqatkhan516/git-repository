@@ -2,6 +2,9 @@
 <html>
 <head>
 <?php include("class_lib.php"); ?>
+	<ul>
+            <li><a href="http://localhost:3000/practise2.php">Back to home</a></li>
+            </ul>
 </head>
 <body>
 <?php

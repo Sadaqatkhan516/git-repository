@@ -3,14 +3,25 @@ article
     padding:5px;
     border:dotted 3px #ff006e;
     margin-top:5px;
+    background:#44D43B;
 }
 
 header
 {
     padding:0px;
     text-align:center;
+    color:blue;
+    background: #e5e5e5;
 }
-
+a 
+{
+  text-decoration: none;
+  color:gray;
+}
+a:hover, a:active {
+  background-color: pink;
+  color:blue;
+}
 aside
 {
     margin-top:5px;
@@ -40,6 +51,7 @@ footer
 nav
 {
     text-align:center;
+    background: #e5e5e5;
 }
 ul li
 {
@@ -55,4 +67,43 @@ ul li
      width: 38%;
      min-height: 330px;
      background: #e5e5e5;
+}
+p {
+  animation-duration: 4s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: left;
+	}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 150%; 
+  }
+
+input:focus{
+   width: 500px;
+}
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+75% {
+  font-size: 140%;
+  margin-left: 25%;
+  width: 150%;
+  }
+
+}
+
+input {
+  border-radius: 5px;
+  border: 0;
+  width: 300px;
+  height: 55px;
+  padding: 0 5px;
+  transition: all 6s;
+  
+	
 }

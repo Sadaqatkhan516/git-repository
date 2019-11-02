@@ -5,28 +5,25 @@
     <link href="stylesheet.css" rel="stylesheet" />
 </head>
 <header>
-        <h1>This is page heading</h1>
+        <h1>QuEsTiOn 1 SoLuTiOn</h1>
     </header>
     <nav>
         <ul>
             <li><a href="http://localhost:3000/practise2.php">Back to Home</a></li>
-            
+	
+<li>
+<form method="post">
+<p>Please enter positive integer :<input type="number" name="number" placeholder="Positive integer..."><br>
+</p>
+<input type="submit" name="submit" value="Question 1">
+<input type="submit" name="submit1" value="Question 2">
+<input type="submit" name="submit2" value="Question 3">
+<input type="submit" name="submit3" value="Question 4">
+</form>
+</li>
         </ul>
 
-<!- simple html form to get input from user -->
 <article>
-<form method="post">
-Please enter positive number for question 1:<input type="number" name="number"><br>
-Click on one of the following buttons to perform the operation labeled on the buttons. <br>
-The given number, next and previous positive integer will be used in the following <br> 
-<input type="submit" name="submit" value="Click for normal addition"><br>
-<input type="submit" name="submit1" value="Click for addition simplified version"><br>
-<input type="submit" name="submit2" value="Click for highest number using +/-* operations"><br>
-<input type="submit" name="submit3" value="Click for highest number using +/-* operations simplified version"><br>
-</form>
-</article>
-<br>
-<br>
 
 <?php
 
@@ -120,10 +117,37 @@ if(isset($_POST['submit3']))
 //Compariosn which is greater number in all the Arthematic operations
 	
 	echo "<br>The simplified answer is ", max($FinAdd,$FinDiv,$FinSub,$FinMul);
-	echo "<br>equations are changed to get maximum possible outcome, Also the sequence of equation of division is changed to avoid divide by 0"; 
+	echo "<br>equations are changed to get maximum possible outcome, Also the sequence of equation of division is changed to avoid divide by 0 "; 
 
 } 
 ?>
+</article>
+<aside id='sidebar'>
+                <h1> Slider Box </h1>
+                <section> You can write or mention your Slider description here </section>
+</aside>  
+<figure>
+            <img src="IMG_0210.jpg" height="180px" width="300px" />
+            <figcaption>Figure caption goes here</figcaption>
+        </figure>
+       
+            Hello world! Hello world! Hello world!
+            Hello world! Hello world! Hello world!
+        
+		
+    
 
+    <section>
+        <h1>This is a section heading</h1>
+        
+            Hello world! Hello world! Hello world!
+            Hello world! Hello world! Hello world!
+            Hello world! Hello world! Hello world!
+        
+    </section>
+    <footer>
+        <hr />
+        Copyright (C) 2019. All rights reserved.
+    </footer>
 </body>
 </html>
